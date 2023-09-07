@@ -46,7 +46,58 @@ html {
   justify-content: space-between;
   row-gap: 20px;
   background-color: black;
-  overflow: auto;
+  position: relative;
+}
+
+.mic-off {
+  color: rgb(255, 82, 82);
+}
+
+.user {
+  position: relative;
+}
+
+.user-box {
+  position: absolute;
+  bottom: 15px;
+  left: 10px;
+  background-color: rgba(187, 187, 187, 0.26);
+  display: flex;
+  gap: 10px;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.user-name {
+  font-weight: bold;
+}
+
+.big-size {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  background-color: rgba(187, 187, 187, 0.26);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.change-speaker-view {
+  position: absolute;
+  right: 60px;
+  display: flex;
+  gap: 10px;
+  top: 5px;
+  background-color: rgba(187, 187, 187, 0.26);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  align-items: center;
+  cursor: pointer;
 }
 
 /* TOOLBAR */
@@ -105,9 +156,11 @@ html {
 }
 
 .btn-end-meeting {
-  background-color: rgb(155, 155, 155);
-  color: red;
+  background-color: rgb(194, 194, 194);
+  color: rgb(250, 67, 67);
+  font-weight: bold;
   border: 0px;
   padding: 10px;
   cursor: pointer;
+  border-radius: 5px;
 }
