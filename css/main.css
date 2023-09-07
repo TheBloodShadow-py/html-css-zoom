@@ -69,6 +69,7 @@ html {
 
 .user {
   position: relative;
+  cursor: pointer;
 }
 
 .user img {
@@ -86,6 +87,7 @@ html {
   padding: 10px;
   border-radius: 5px;
   align-items: center;
+  transition: 300ms all;
 }
 
 .user-name {
@@ -102,6 +104,19 @@ html {
   border-radius: 5px;
   align-items: center;
   cursor: pointer;
+  transition: 300ms all;
+}
+
+.big-size:hover {
+  background-color: rgba(187, 187, 187, 0.719);
+}
+
+.change-speaker-view:hover {
+  background-color: rgba(187, 187, 187, 0.719);
+}
+
+.user-box:hover {
+  background-color: rgba(187, 187, 187, 0.507);
 }
 
 .change-speaker-view {
@@ -116,6 +131,7 @@ html {
   border-radius: 5px;
   align-items: center;
   cursor: pointer;
+  transition: 300ms all;
 }
 
 .icon-wrapper {
