@@ -45,7 +45,13 @@ html {
   flex-wrap: wrap;
   justify-content: space-between;
   row-gap: 20px;
-  background-color: black;
+  background: rgb(101, 161, 210);
+  background: radial-gradient(
+    circle,
+    rgba(101, 161, 210, 1) 0%,
+    rgba(134, 118, 210, 1) 53%,
+    rgba(133, 158, 187, 1) 100%
+  );
   position: relative;
 }
 
@@ -55,6 +61,10 @@ html {
 
 .user {
   position: relative;
+}
+
+.user img {
+  border-radius: 4px;
 }
 
 .user-box {
