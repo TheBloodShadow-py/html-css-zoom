@@ -19,3 +19,95 @@ h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
+
+html {
+  min-height: 100vh;
+  background-color: rgb(49, 49, 49);
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1800px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.green {
+  color: rgb(0, 184, 0);
+}
+
+/* APP CONTENT */
+
+.screen {
+  padding: 80px 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 20px;
+  background-color: black;
+  overflow: auto;
+}
+
+/* TOOLBAR */
+
+#toolbar {
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(49, 49, 49);
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  overflow: hidden;
+}
+
+.section-device {
+  display: flex;
+  gap: 10px;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.section-device > img {
+  width: 10px;
+  height: 10px;
+  transform: rotate(0.5turn) translateY(-10px);
+}
+
+.icon-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  font-size: 14px;
+  align-content: center;
+}
+
+.device-control {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.toolbar-container {
+  justify-content: space-between;
+  display: flex;
+}
+
+.main-functions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.btn-end-meeting {
+  background-color: rgb(155, 155, 155);
+  color: red;
+  border: 0px;
+  padding: 10px;
+  cursor: pointer;
+}
