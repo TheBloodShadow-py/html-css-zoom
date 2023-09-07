@@ -100,6 +100,14 @@ html {
   cursor: pointer;
 }
 
+.icon-wrapper {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* TOOLBAR */
 
 #toolbar {
@@ -126,6 +134,10 @@ html {
   width: 10px;
   height: 10px;
   transform: rotate(0.5turn) translateY(-10px);
+}
+
+#translate-left {
+  transform: rotate(0.5turn) translate(22px, -10px);
 }
 
 .icon-text {
